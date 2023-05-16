@@ -1,0 +1,21 @@
+package com.learntocode;
+
+public class Moped extends Vehicle {
+    public Moped(String model, String color, int topSpeed, int fuelCapacity, int numberOfPassengers, int cargoCapacity, int maxWeight) {
+        super(model, color, topSpeed, fuelCapacity, numberOfPassengers, cargoCapacity);
+        this.maxWeight = maxWeight;
+    }
+
+    private int maxWeight;
+
+    public int getMaxWeight() {
+        return maxWeight;
+    }
+
+    public void setMaxWeight(int maxWeight) {
+        this.maxWeight = maxWeight;
+    }
+    public void ride(){
+
+    }
+}
